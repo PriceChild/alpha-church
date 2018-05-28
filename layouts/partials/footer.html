@@ -28,11 +28,11 @@
 {{ template "_internal/google_analytics_async.html" . }}
 {{ end }}
 {{ "<!-- Local Scripts -->" | safeHTML }}
-<script src="{{ .Site.BaseURL }}js/util.js"></script>
-<script src="{{ .Site.BaseURL }}js/jquery.scrollgress.min.js"></script>
+<script src="/js/util.js"></script>
+<script src="/js/jquery.scrollgress.min.js"></script>
 
 {{ `<!--[if lte IE 8]><script src="/js/ie/respond.min.js"></script><![endif]-->` | safeHTML}}
-<script src="{{ .Site.BaseURL }}js/main.js"></script>
-<script src="{{ .Site.BaseURL }}js/osmaps.init.js"></script>
+<script src="/js/main.js"></script>
+<script src="/js/osmaps.init.js"></script>
 </body>
 </html>
